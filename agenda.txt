@@ -1,0 +1,43 @@
+Nombre: Ana
+Apellido: García
+Teléfono: +54 9 11 5551-1234
+
+Nombre: Juan
+Apellido: Martínez
+Teléfono: +54 9 11 5555-5678
+
+Nombre: María
+Apellido: López
+Teléfono: +54 9 11 5559-9012
+
+Nombre: Pedro
+Apellido: Rodríguez
+Teléfono: +54 9 11 5553-3456
+
+Nombre: Laura
+Apellido: Fernández
+Teléfono: +54 9 11 5557-7890
+
+Nombre: Carlos
+Apellido: Sánchez
+Teléfono: +54 9 11 5552-2345
+
+Nombre: Sofía
+Apellido: Pérez
+Teléfono: +54 9 11 5556-6789
+
+Nombre: David
+Apellido: Ramírez
+Teléfono: +54 9 11 5550-0123
+
+Nombre: Gabriela
+Apellido: Torres
+Teléfono: +54 9 11 5554-4567
+
+Nombre: Andrés
+Apellido: Morales
+Teléfono: +54 9 11 5558-8901
+
+Nombre: Claudio
+Apellido: Barrientos
+Teléfono: 123456
