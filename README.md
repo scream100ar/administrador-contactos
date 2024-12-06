@@ -22,20 +22,46 @@ El **Administrador de Contactos** es una aplicación en Python diseñada para ge
 ---
 
 ## Instalación
-1. Clona este repositorio o descarga los archivos manualmente.
+1. Asegúrate de tener Python instalado en tu sistema. Puedes verificarlo ejecutando:
+   ```bash
+   python --version
+   ```
+Si lo desea puede ejecutar la instacion en un entorno virtual, sino puede saltar directamente al punto 7.
+En caso de querer instalarlo de forma aislada en un entorno virtual:
+2. Asegúrate de tener venv instalado en tu ejecucion de Python. Para verificarlo:
+   ```bash
+   python -m venv --version
+   ```
+3. Cree un entorno virtual con venv (Windows):
+   ```bash
+   python -m venv ./venv 
+   ```
+4. Cree un entorno virtual con venv (Linux):
+   ```bash
+   python3 -m venv ./venv 
+   ```
+5. Active el entorno virtual (Windows):
+   ```bash
+   .\venv\Scripts\activate
+   ```
+6. Active el entorno virtual (Linux):
+   ```bash
+   source myenv/bin/activate
+   ```
+7. Clona este repositorio o descarga los archivos manualmente.
    ```bash
    git clone https://github.com/scream100ar/administrador-contactos
    cd administrador-contactos
    ```
-2. Asegúrate de tener Python instalado en tu sistema. Puedes verificarlo ejecutando:
+6. Asegúrate de tener Python instalado en tu sistema. Puedes verificarlo ejecutando:
    ```bash
    python --version
    ```
-3. Ejecuta el archivo principal (Windows):
+7. Ejecuta el archivo principal (Windows):
    ```bash
    python main.py
    ```
-4. Ejecuta el archivo principal (Linux):
+8. Ejecuta el archivo principal (Linux):
    ```bash
    python3 main.py
    ```
@@ -49,9 +75,9 @@ Al iniciar el programa, se mostrará un menú con las siguientes opciones:
 2. **Agregar o actualizar los datos de una persona:** Solicita nombre, apellido y teléfono. Si el contacto ya existe, actualiza su información.
 3. **Importar contactos desde un archivo:** Importa contactos desde `importar.txt`. Cada contacto debe estar en el formato:
    ```
-   Nombre: John
-   Apellido: Doe
-   Teléfono: 123456789
+   Nombre: Julieta
+   Apellido: Aguirre
+   Teléfono: +54 9 11 5598-7890
    ```
 4. **Imprimir toda la agenda:** Muestra todos los contactos en pantalla.
 
