@@ -24,16 +24,20 @@ El **Administrador de Contactos** es una aplicación en Python diseñada para ge
 ## Instalación
 1. Clona este repositorio o descarga los archivos manualmente.
    ```bash
-   git clone https://github.com/tuusuario/administrador-contactos.git
+   git clone https://github.com/scream100ar/administrador-contactos
    cd administrador-contactos
    ```
 2. Asegúrate de tener Python instalado en tu sistema. Puedes verificarlo ejecutando:
    ```bash
    python --version
    ```
-3. Ejecuta el archivo principal:
+3. Ejecuta el archivo principal (Windows):
    ```bash
    python main.py
+   ```
+4. Ejecuta el archivo principal (Linux):
+   ```bash
+   python3 main.py
    ```
 
 ---
@@ -79,9 +83,9 @@ Elija una opción:
 Cualquier otra tecla para salir
 Ingrese su elección: 2
 
-Ingrese el nombre: Alice
-Ingrese el apellido: Smith
-Ingrese el teléfono: 987654321
+Ingrese el nombre: Rodrigo
+Ingrese el apellido: Molina
+Ingrese el teléfono: +54 9 11 5574-5678
 
 ¡Contacto agregado correctamente!
 ```
@@ -91,32 +95,28 @@ Ingrese el teléfono: 987654321
 Ingrese su elección: 1
 
 Buscar una persona en la agenda:
-Ingrese el nombre: Alice
-Ingrese el apellido: Smith
+Ingrese el nombre: Rodrigo
+Ingrese el apellido: Molina
 
 Contacto encontrado:
-Nombre: Alice
-Apellido: Smith
-Teléfono: 987654321
+Nombre: Rodrigo
+Apellido: Molina
+Teléfono: +54 9 11 5568-9012
 ```
 
 ---
 
 ## Contribuciones
-¡Las contribuciones son bienvenidas! Si deseas colaborar, por favor:
+Para colaborar en el proyecto por favor:
 1. Haz un fork de este repositorio.
 2. Crea una nueva rama para tus cambios:
    ```bash
-   git checkout -b feature/nueva-funcion
+   git checkout -b nombre-de-la-rama
    ```
 3. Envía un pull request detallando las mejoras realizadas.
 
 ---
 
-## Licencia
-Este proyecto se encuentra bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
----
 
 ## Autor
-Desarrollado por [Tu Nombre](https://github.com/tuusuario).
+Desarrollado por [Claudio Barrientos](https://github.com/scream100ar).
