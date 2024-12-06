@@ -51,15 +51,16 @@ def agregar(nombre, apellido, telefono):
         nombre (string): Nombre de la persona en la agenda.
         apellido (string): Apellido de la persona en la agenda.
         telefono (string): Número de telefono de la persona en la agenda."""
-    nombre = nombre.strip().capitalize()
-    apellido = apellido.strip().capitalize()
+    nombre = nombre.capitalize()
+    apellido = apellido.capitalize()
     for contacto in agenda.values():
         if contacto["Nombre"] == nombre and contacto["Apellido"] == apellido:
             contacto["Teléfono"] = telefono
             print("\n¡Contacto actualizado!\n")
             escribir_agenda()
             return
-    agenda[str(len(agenda) + 1)] = {"Nombre": nombre, "Apellido": apellido, "Teléfono": telefono}
+    agenda[str(len(agenda) + 1)] = {"Nombre": nombre,
+                                    "Apellido": apellido, "Teléfono": telefono}
     print("\n¡Contacto agregado correctamente!\n")
     escribir_agenda()
 
@@ -71,8 +72,8 @@ def buscar(nombre, apellido):
     Args:
         nombre (string): Nombre de la persona en la agenda.
         apellido (string): Apellido de la persona en la agenda."""
-    nombre = nombre.strip().capitalize()
-    apellido = apellido.strip().capitalize()
+    nombre = nombre.capitalize()
+    apellido = apellido.capitalize()
     for contacto in agenda.values():
         if contacto["Nombre"] == nombre and contacto["Apellido"] == apellido:
             print(f"\nContacto encontrado:\
