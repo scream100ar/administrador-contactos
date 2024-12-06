@@ -28,6 +28,7 @@ El **Administrador de Contactos** es una aplicación en Python diseñada para ge
    ```
 Si lo desea puede ejecutar la instacion en un entorno virtual, sino puede saltar directamente al punto 7.
 En caso de querer instalarlo de forma aislada en un entorno virtual:
+
 2. Asegúrate de tener venv instalado en tu ejecucion de Python. Para verificarlo:
    ```bash
    python -m venv --version
